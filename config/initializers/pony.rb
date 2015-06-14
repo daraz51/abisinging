@@ -6,7 +6,7 @@ Pony.options = {
     :port                 => '587',
     :enable_starttls_auto => true,
     :user_name            => 'darren.daraz@gmail.com',
-    :password             => 'Hu3i4UVd0m',
+    :password             => 'vnrnsmoniwbvvwhx',
     :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
     :domain               => "localhost.localdomain" # the HELO domain provided by the client to the server
   }
