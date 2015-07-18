@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby "2.1.5"
 gem 'rails', '3.2.13'
 #gem 'bootstrap-sass', '2.1'
 gem 'bootstrap-sass', '2.3.2.0'
@@ -10,6 +10,7 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'pony', '1.8'
 gem 'nokogiri', '1.6'
+gem 'meta-tags', '2.0.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
