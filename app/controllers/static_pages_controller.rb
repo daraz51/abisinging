@@ -27,11 +27,10 @@ class StaticPagesController < ApplicationController
     @page_description = 'Singing teacher / tutor covering the Portsmouth, Drayton, Havant and surronding areas. Both mobile and studio based singing lessons are avaible.'
     @page_keywords = 'Singing,Teacher,Tutor,Portsmouth,Havant,Drayton,Waterlooville,Fareham,Lessons'
     set_meta_tags :og => {
-                          :site => 'abisinging.co.uk',
                           :title    => 'Abi Singing',
                           :type     => 'article',
                           :url      => 'http://www.abisinging.co.uk',
-                          :image    => 'http://www.abisinging.co.uk/assets/logo_header.png',
+                          :image    => 'http://www.abisinging.co.uk/assets/logo_header_120.png',
                           :description => 'Qualified Singing Teacher in and around the Portsmouth area'
                           } 
     set_meta_tags :twitter => {
