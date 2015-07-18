@@ -31,12 +31,13 @@ class StaticPagesController < ApplicationController
                           :title    => 'Abi Singing',
                           :type     => 'article',
                           :url      => 'http://www.abisinging.co.uk',
-                          :image    => 'http://www.abisinging.co.uk/assets/me_300-91ee5f6781b1b84c54c8e6db95f7ba51.jpg',
+                          :image    => 'http://www.abisinging.co.uk/assets/logo_header.png',
                           :description => 'Qualified Singing Teacher in and around the Portsmouth area'
                           } 
     set_meta_tags :twitter => {
-                              :card => "summary",
-                              :site => "@abisinging"
+                              :card => 'summary',
+                              :site => '@abisinging',
+                              :url => 'www.abisinging.co.uk'
                                }              
   end
   
