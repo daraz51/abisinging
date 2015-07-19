@@ -26,7 +26,6 @@ SampleApp::Application.routes.draw do
   match '/links', to: 'static_pages#links'
 
 
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
