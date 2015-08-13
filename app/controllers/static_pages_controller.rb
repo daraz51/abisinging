@@ -24,7 +24,7 @@ class StaticPagesController < ApplicationController
   end
   
   def set_meta
-    @page_description = 'Singing teacher / tutor covering the Portsmouth, Drayton, Havant and surronding areas. Both mobile and studio based singing lessons are avaible.'
+    @page_description = 'Singing teacher / tutor covering the Portsmouth, Drayton, Havant and surronding areas. Both mobile and studio based singing lessons are available.'
     @page_keywords = 'Singing,Teacher,Tutor,Portsmouth,Havant,Drayton,Waterlooville,Fareham,Lessons'
     set_meta_tags :og => {
                           :title    => 'Abi Singing',
